@@ -52,8 +52,8 @@
 		)
 		(symbol "8Devices-Carambola 2_1_0"
 			(rectangle
-				(start 60.96 0)
-				(end 0 -116.84)
+				(start 0 0)
+				(end 45.72 -78.74)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -63,17 +63,8 @@
 					(type background)
 				)
 			)
-			(text "38x28mm"
-				(at 20.32 -63.5 0)
-				(effects
-					(font
-						(size 3.2766 3.2766)
-					)
-					(justify left bottom)
-				)
-			)
 			(text "CARAMBOLA 2"
-				(at 12.7 -55.88 0)
+				(at 24.384 -59.182 900)
 				(effects
 					(font
 						(size 4.3688 4.3688)
@@ -82,7 +73,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -101.6 180)
+				(at 53.34 -74.93 180)
 				(length 7.62)
 				(name "GPIO_23"
 					(effects
@@ -100,7 +91,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -55.88 180)
+				(at 53.34 -40.64 180)
 				(length 7.62)
 				(name "TXOP1"
 					(effects
@@ -118,7 +109,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -50.8 180)
+				(at 53.34 -36.83 180)
 				(length 7.62)
 				(name "TXOM1"
 					(effects
@@ -136,7 +127,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -45.72 180)
+				(at 53.34 -33.02 180)
 				(length 7.62)
 				(name "RXIP0"
 					(effects
@@ -154,7 +145,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -40.64 180)
+				(at 53.34 -29.21 180)
 				(length 7.62)
 				(name "RXIM0"
 					(effects
@@ -172,7 +163,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -35.56 180)
+				(at 53.34 -25.4 180)
 				(length 7.62)
 				(name "TXOP0"
 					(effects
@@ -190,7 +181,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -30.48 180)
+				(at 53.34 -21.59 180)
 				(length 7.62)
 				(name "TXOM0"
 					(effects
@@ -208,7 +199,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -25.4 180)
+				(at 53.34 -17.78 180)
 				(length 7.62)
 				(name "SPI_MOSI"
 					(effects
@@ -226,7 +217,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -20.32 180)
+				(at 53.34 -13.97 180)
 				(length 7.62)
 				(name "SPI_CLK"
 					(effects
@@ -244,7 +235,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -15.24 180)
+				(at 53.34 -10.16 180)
 				(length 7.62)
 				(name "SPI_MISO"
 					(effects
@@ -262,7 +253,7 @@
 				)
 			)
 			(pin passive line
-				(at 53.34 7.62 270)
+				(at 40.64 7.62 270)
 				(length 7.62)
 				(name "SPI_CS"
 					(effects
@@ -280,7 +271,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -96.52 180)
+				(at 53.34 -71.12 180)
 				(length 7.62)
 				(name "GPIO_22"
 					(effects
@@ -298,7 +289,7 @@
 				)
 			)
 			(pin passive line
-				(at 48.26 7.62 270)
+				(at 36.83 7.62 270)
 				(length 7.62)
 				(name "USB+"
 					(effects
@@ -316,7 +307,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 7.62 270)
+				(at 33.02 7.62 270)
 				(length 7.62)
 				(name "USB-"
 					(effects
@@ -334,7 +325,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 7.62 270)
+				(at 29.21 7.62 270)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -352,7 +343,7 @@
 				)
 			)
 			(pin passive line
-				(at 33.02 7.62 270)
+				(at 25.4 7.62 270)
 				(length 7.62)
 				(name "GPIO11"
 					(effects
@@ -370,7 +361,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 7.62 270)
+				(at 21.59 7.62 270)
 				(length 7.62)
 				(name "GPIO12"
 					(effects
@@ -388,7 +379,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 7.62 270)
+				(at 17.78 7.62 270)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -406,7 +397,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 7.62 270)
+				(at 13.97 7.62 270)
 				(length 7.62)
 				(name "ANT0"
 					(effects
@@ -442,7 +433,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -15.24 0)
+				(at -7.62 -6.35 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -460,7 +451,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -20.32 0)
+				(at -7.62 -10.16 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -478,7 +469,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -91.44 180)
+				(at 53.34 -67.31 180)
 				(length 7.62)
 				(name "GPIO_21"
 					(effects
@@ -496,7 +487,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -25.4 0)
+				(at -7.62 -13.97 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -514,7 +505,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -30.48 0)
+				(at -7.62 -17.78 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -532,7 +523,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -35.56 0)
+				(at -7.62 -21.59 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -550,7 +541,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -40.64 0)
+				(at -7.62 -25.4 0)
 				(length 7.62)
 				(name "RESET"
 					(effects
@@ -568,7 +559,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -45.72 0)
+				(at -7.62 -29.21 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -586,7 +577,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -50.8 0)
+				(at -7.62 -33.02 0)
 				(length 7.62)
 				(name "LED6"
 					(effects
@@ -604,7 +595,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -55.88 0)
+				(at -7.62 -36.83 0)
 				(length 7.62)
 				(name "LED5"
 					(effects
@@ -622,7 +613,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -60.96 0)
+				(at -7.62 -40.64 0)
 				(length 7.62)
 				(name "LED4"
 					(effects
@@ -640,7 +631,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -66.04 0)
+				(at -7.62 -44.45 0)
 				(length 7.62)
 				(name "LED3"
 					(effects
@@ -658,7 +649,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -71.12 0)
+				(at -7.62 -48.26 0)
 				(length 7.62)
 				(name "LED2"
 					(effects
@@ -676,7 +667,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -86.36 180)
+				(at 53.34 -63.5 180)
 				(length 7.62)
 				(name "GPIO_20"
 					(effects
@@ -694,7 +685,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -76.2 0)
+				(at -7.62 -52.07 0)
 				(length 7.62)
 				(name "LED1"
 					(effects
@@ -712,7 +703,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -81.28 0)
+				(at -7.62 -55.88 0)
 				(length 7.62)
 				(name "LED0"
 					(effects
@@ -730,7 +721,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -86.36 0)
+				(at -7.62 -59.69 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -748,7 +739,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -91.44 0)
+				(at -7.62 -63.5 0)
 				(length 7.62)
 				(name "UART_RX"
 					(effects
@@ -766,7 +757,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -96.52 0)
+				(at -7.62 -67.31 0)
 				(length 7.62)
 				(name "UART_TX"
 					(effects
@@ -784,7 +775,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -101.6 0)
+				(at -7.62 -71.12 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -802,7 +793,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -124.46 90)
+				(at 11.43 -86.36 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -820,7 +811,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -124.46 90)
+				(at 15.24 -86.36 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -838,7 +829,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -124.46 90)
+				(at 19.05 -86.36 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -856,7 +847,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -124.46 90)
+				(at 22.86 -86.36 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -874,7 +865,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -81.28 180)
+				(at 53.34 -59.69 180)
 				(length 7.62)
 				(name "GPIO_19"
 					(effects
@@ -892,7 +883,7 @@
 				)
 			)
 			(pin passive line
-				(at 40.64 -124.46 90)
+				(at 26.67 -86.36 90)
 				(length 7.62)
 				(name "+3VD"
 					(effects
@@ -910,7 +901,7 @@
 				)
 			)
 			(pin passive line
-				(at 45.72 -124.46 90)
+				(at 30.48 -86.36 90)
 				(length 7.62)
 				(name "+3VD"
 					(effects
@@ -928,7 +919,7 @@
 				)
 			)
 			(pin passive line
-				(at 50.8 -124.46 90)
+				(at 34.29 -86.36 90)
 				(length 7.62)
 				(name "+2VD"
 					(effects
@@ -946,7 +937,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -76.2 180)
+				(at 53.34 -55.88 180)
 				(length 7.62)
 				(name "GPIO_18"
 					(effects
@@ -964,7 +955,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -71.12 180)
+				(at 53.34 -52.07 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -982,7 +973,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -66.04 180)
+				(at 53.34 -48.26 180)
 				(length 7.62)
 				(name "RXIP1"
 					(effects
@@ -1000,7 +991,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -60.96 180)
+				(at 53.34 -44.45 180)
 				(length 7.62)
 				(name "RXIM1"
 					(effects
@@ -2325,6 +2316,650 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "DW01A"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -10.16 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "DW01A"
+			(at -10.16 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "DW01A:SOT95P280X145-6N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Fortune Semiconductor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" "103849"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-6 Fortune Semiconductor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DW01A/Fortune+Semiconductor/view-part/?ref=eda"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DW01A/Fortune+Semiconductor/view-part/?ref=snap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DW01A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nOne Cell Lithium-ion/Polymer Battery Protection IC\n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Fortune Semiconductor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "DW01A_0_0"
+			(rectangle
+				(start -10.16 -10.16)
+				(end 10.16 10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 15.24 -2.54 180)
+				(length 5.08)
+				(name "OD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 2.54 0)
+				(length 5.08)
+				(name "CS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 2.54 180)
+				(length 5.08)
+				(name "OC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -2.54 0)
+				(length 5.08)
+				(name "TD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 7.62 180)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -7.62 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TP4056"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 12.7 -10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP4056"
+			(at -1.524 2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at -22.352 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at -20.32 6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "TP4056_0_0"
+			(rectangle
+				(start -7.62 15.24)
+				(end 12.7 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "TEMP"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -3.81 180)
+				(length 5.08)
+				(name "PROG"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 -15.24 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 12.7 0)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 10.16 180)
+				(length 5.08)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 -7.62 0)
+				(length 5.08)
+				(name "~{STDBY}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 -1.27 0)
+				(length 5.08)
+				(name "~{CHRG}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 6.35 0)
+				(length 5.08)
+				(name "CE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -15.24 90)
+				(length 5.08)
+				(name "EP"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)
