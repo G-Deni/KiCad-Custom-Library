@@ -188,7 +188,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "efa9f6f9-22c0-4147-996c-f04a28973a6e")
 	)
-	(model "SRP5030CC-4R7M.stp"
+	(model "/home/oem/GIT/KiCad-Custom-Library/Custom-Compnents/3d-Models/SRP5030CC-4R7M.stp"
 		(offset
 			(xyz 0 0 0)
 		)

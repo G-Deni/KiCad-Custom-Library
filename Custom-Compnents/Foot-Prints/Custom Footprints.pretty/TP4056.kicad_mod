@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "TP4056"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -266,5 +266,16 @@
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "bf328439-5e4f-4762-8926-fad1490c3a94")
+	)
+	(model "/home/oem/GIT/KiCad-Custom-Library/Custom-Compnents/3d-Models/TP4056.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

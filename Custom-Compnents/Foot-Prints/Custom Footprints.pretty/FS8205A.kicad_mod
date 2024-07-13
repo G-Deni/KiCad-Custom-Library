@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "FS8205A"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -247,5 +247,16 @@
 		(roundrect_rratio 0.05)
 		(solder_mask_margin 0.102)
 		(uuid "231b34de-94c4-4a5f-8d07-60e837a2e1da")
+	)
+	(model "/home/oem/GIT/KiCad-Custom-Library/Custom-Compnents/3d-Models/FS8205A.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

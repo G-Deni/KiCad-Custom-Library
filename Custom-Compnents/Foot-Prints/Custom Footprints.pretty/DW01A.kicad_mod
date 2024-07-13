@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "DW01A"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -205,5 +205,16 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "ab921ac2-c381-4197-ace7-107bf82b9418")
+	)
+	(model "/home/oem/GIT/KiCad-Custom-Library/Custom-Compnents/3d-Models/DW01A.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

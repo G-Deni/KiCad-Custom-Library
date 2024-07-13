@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "PCM12SMTR"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -285,7 +285,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "1abbb819-01bd-411a-a4d5-6d43445ac336")
 	)
-	(model "PCM12SMTR.stp"
+	(model "/home/oem/GIT/KiCad-Custom-Library/Custom-Compnents/3d-Models/PCM12SMTR.STEP"
 		(offset
 			(xyz 0 -0.03999999851 0.7099999679)
 		)

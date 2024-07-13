@@ -852,17 +852,21 @@
 		(layer "F.SilkS")
 		(uuid "ef7f7d7e-1feb-42df-bd54-0fd276860e19")
 	)
-	(pad "GND1" smd rect
+	(pad "GND1" thru_hole rect
 		(at 2.794 2.0955 90)
 		(size 4.191 1.3335)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(drill 0.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "1dd6c0af-76b1-47ad-a69e-25d23cd6b262")
 	)
-	(pad "GND2" smd rect
+	(pad "GND2" thru_hole rect
 		(at -2.794 2.0955 90)
 		(size 4.191 1.3335)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(drill 0.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "b7a80177-2f45-49c4-9567-385c72252808")
 	)
@@ -872,5 +876,16 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "85475632-7207-4d0e-a322-b82ef77f4439")
+	)
+	(model "/home/oem/GIT/KiCad-Custom-Library/Custom-Compnents/3d-Models/SMA 142-0711-821.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
 	)
 )

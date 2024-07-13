@@ -219,4 +219,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "9fb71e58-b62e-4248-a438-3cc52c829f75")
 	)
+	(model "/home/oem/GIT/KiCad-Custom-Library/Custom-Compnents/3d-Models/XC9142B33DMR-G.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
